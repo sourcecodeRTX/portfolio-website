@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { ExternalLink, Github, Calendar, Users, Timer, BarChart3, Bot, Radio } from "lucide-react"
+import { ExternalLink, Github, Calendar, Users, Timer, BarChart3, Bot, Radio, Briefcase, Sprout, CheckSquare } from "lucide-react"
 
 export default function Projects() {
   const ref = useRef(null)
@@ -44,34 +44,34 @@ export default function Projects() {
       showGithub: true,
     },
     {
-      title: "Spotify Playlist to MP3 Mapper",
-      description: "Tool to map Spotify playlists and convert them to downloadable MP3 format with metadata.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["Node.js", "Spotify API", "FFmpeg", "Express"],
-      icon: Users,
+      title: "The Agency — AI Agent Specialists Directory",
+      description: "The Agency is a modern, curated collection of AI agents designed to enhance your productivity across multiple domains.",
+      image: "/images/Agency.PNG",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Web APIs"],
+      icon: Briefcase,
       color: "from-green-400 to-teal-500",
-      showGithub: true,
-      inDevelopment: true,
+      demoLink: "https://agency-platform-kappa.vercel.app",
+      showGithub: false,
     },
     {
-      title: "Study Timer + Quotes",
-      description: "Productivity app with Pomodoro timer, motivational quotes, and study session tracking.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["React", "Local Storage", "PWA", "Notifications API"],
-      icon: Timer,
+      title: "KisanSaathi",
+      description: "Your AI-Powered Farming Companion Empowering Indian farmers with artificial intelligence, real-time market data, and smart agricultural insights — right from their pocket.",
+      image: "/images/KisanSaathi.PNG",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Gemini API"],
+      icon: Sprout,
       color: "from-purple-400 to-pink-500",
-      showGithub: true,
-      inDevelopment: true,
+      demoLink: "https://kisan-saathi-pro.vercel.app",
+      showGithub: false,
     },
     {
-      title: "Attendance Tracker (n8n)",
-      description: "Automated attendance tracking system built with n8n workflows and database integration.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["n8n", "Webhook", "Database", "Automation"],
-      icon: Calendar,
+      title: "TaskMaster Pro",
+      description: "A revolutionary TO-DO application that combines stunning design with military-grade encryption, offering 60+ features for ultimate productivity.",
+      image: "/images/taskpro.PNG",
+      technologies: ["HTML5", "CSS3", "JavaScript", "Web Crypto"],
+      icon: CheckSquare,
       color: "from-red-400 to-orange-500",
-      showGithub: true,
-      inDevelopment: true,
+      demoLink: "https://sourcecodertx.github.io/TaskMaster_Pro/",
+      showGithub: false,
     },
   ]
 
