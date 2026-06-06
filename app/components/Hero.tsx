@@ -72,7 +72,7 @@ export default function Hero() {
             transition={{ delay: 1 }}
           >
             <motion.a
-              href="https://drive.google.com/file/d/1fi4ZFXNT1AFl_3IZ6M4bwkw6g3jOdubd/view"
+              href="https://drive.google.com/uc?export=download&id=1Nuw1RCF6wKLaE45-JRHSir1vJh8ETRrG"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(34, 197, 94, 0.5)" }}

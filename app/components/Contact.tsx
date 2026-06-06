@@ -76,7 +76,6 @@ export default function Contact() {
       label: "YouTube",
       color: "hover:text-red-400",
     },
-    { icon: MessageSquare, href: "#", label: "Telegram", color: "hover:text-blue-400" },
   ]
 
   return (
