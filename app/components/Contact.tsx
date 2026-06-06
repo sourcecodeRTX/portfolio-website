@@ -288,7 +288,7 @@ export default function Contact() {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="text-center mt-16 pt-8 border-t border-gray-700"
         >
-          <p className="text-gray-400">© 2024 Ratty Ram. Built with ❤️ using Next.js and Tailwind CSS</p>
+          <p className="text-gray-400">© 2026 Ratty Ram. Built with ❤️ using Next.js and Tailwind CSS</p>
         </motion.div>
       </div>
     </section>
